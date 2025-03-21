@@ -10,7 +10,7 @@ public class Main {
         int qnt = leitor.nextInt();
         Produto[] listaProdutos = new Produto[qnt];
         int posicao = 0;
-        int opcao = 1;
+        int opcao = 0;
 
         do{
             System.out.println("O que você deseja fazer?");
@@ -95,5 +95,8 @@ public class Main {
                 break;
             }
         }while(opcao != 5);
+
+        System.out.println("Você saiu do programa");
+
     }
 }
